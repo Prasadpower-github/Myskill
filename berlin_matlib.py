@@ -8,7 +8,8 @@ df = pd.DataFrame(data)
   
 X = list(df.iloc[:, 1])
 Y = list(df.iloc[:, 2])
-
+print(X)
+print(Y)
 plt.bar(X, Y, color='r')
 plt.title("berlin items")
 plt.xlabel("count")
